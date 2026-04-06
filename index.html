@@ -9,7 +9,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <a href="#!">CryptoCap</a>
+            <a class="header__logo" href="#!">Crypto<span>Cap</span></a>
 
             <nav class="header__nav">
                 <ul class="list">
@@ -21,11 +21,14 @@
                 </ul>
             </nav>
 
-            <select name="language" onchange="window.location.href=this.value">
-                <option value="/ru/">EN</option>
-                <option value="/en/">RU</option>
-            </select>
-            <a href="#!">Login</a>
+            <div class="lang-login">
+                <select name="language" onchange="window.location.href=this.value">
+                    <option value="/ru/">EN</option>
+                    <option value="/en/">RU</option>
+                </select>
+
+                <a href="#!">Login</a>
+</div>
         </div>
     </header>
 </body>
